@@ -1,0 +1,430 @@
+*{
+	box-sizing: border-box;
+}
+a{
+	color: black;
+}
+h3 {
+    text-shadow: 2px 2px 4px #000000;
+    color: wheat;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/*header start*/
+#header{
+    background-image: url(../images/rony_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.text-primary img{
+    width: 80px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.fixed-top {
+	background: #fff;
+	box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: all .5s ease-in-out;
+    padding-left: 206px;
+    padding-right: 206px;
+}
+header.header {
+    background-position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    color: rgba(0,0,0,.5);
+}
+.header-layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    background-color:rgba(151, 150, 153, 0.6);
+    opacity:0.9;
+}
+.header-bottom.text-center h1 {
+    font-weight: 600;
+}
+.header-bottom.text-center h2 {
+    font-weight: 500;
+}
+.header-bottom.text-center{
+	margin-top: 180px;
+}
+/*header end*/
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.about-info div span {
+    font-size: 20px;
+}
+.about-skill h3 {
+    padding-top: 15px;
+}
+
+.progress-skill h6 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.about-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+/*footer start*/
+footer.footer.pt-5 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 10px;
+    position: relative;
+}
+.footer-overlay {
+    top: 0;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color: #6F6A5F;
+}
+.footer-overlay {
+    top: 0;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color: #6F6A5F;
+}
+
+.footer-top {
+    background-color: #686256;
+    opacity: 0.7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,1.175)!important;
+}
+
+.footer-logo a {
+    font-size: 1.25rem;
+}
+.footer-about p {
+    color: white;
+}
+.quick-link ul {
+    list-style: circle;
+    padding-left: 20px;
+    color: #28AFEA;
+}
+.tag button.btn.btn-primary {
+    margin-bottom: 5px;
+    border-radius: 35px;
+}
+.new-saller p {
+    color: white;
+}
+.new-saller input[type="email"] {
+    border-radius: 5px;
+    border: #A7AB9E;
+    padding: 5px;
+}
+
+.new-saller input[type="submit"] {
+    border-radius: 5px;
+    border: #A7AB9E;
+    padding: 5px;
+}
+.quick-link ul li {padding-bottom: 5px;}
+
+.quick-link ul li a {
+    font-size: 20px;
+    color: #28AFEA;
+}
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #7D6F60;
+    padding-top: 5px;
+}
+.copyright.d-flex.justify-content-center a {
+    color: white;
+    font-size: 16px;
+}
+/*footer end*/
+
+/*about start*/
+section.login-form{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.about-image img{
+    width: 100%;
+}
+
+.login-overlay {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    height: 100%;
+    left: 0;
+    background-color: #82663E;
+    opacity: 0.5;
+    width: 100%;
+}
+.single-login {
+	background-color: #9E8450;
+	padding: 20px;
+	opacity: 0.8;
+	box-shadow: 0 1rem 3rem!important;
+}
+.get-touch p {
+    color: white;
+    font-size: 20px;
+}
+
+.list-address ul {
+    list-style: none;
+    padding-left: 0;
+}
+.list-address ul li a i {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.list-address ul li a {
+	font-size: 18px;color: wheat;
+}
+.get-touch .list-icon ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.get-touch .list-icon ul li a {
+    font-size: 30px;
+    margin-right: 10px;
+    color: wheat;
+}
+/*about end*/
+
+/*teammate start*/
+.owl-carousel .owl-item img{
+	width: 100px;
+	display: inline;
+}
+.single-slider {
+	background-color: #8B8B90;
+	padding: 40px 30px;
+	position: relative;
+	color: white;
+}
+.single-slide-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #82807D;
+    opacity: 0.4;
+}
+.single-slider ul {
+    list-style: none;
+}
+.single-slider ul li a {
+    font-size: 28px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+button.owl-prev.disabled {
+    float: left;
+}
+
+.owl-carousel button.owl-dot {
+    border: 2px solid #878688;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+button.owl-dot:hover{
+    background-color:#CDCCCB;
+}
+button.owl-dot.active{
+	background-color: #CDCCCB;
+}
+
+.owl-nav {
+    display: none;
+}
+/*team mate end*/
+
+/*project start*/
+.content {
+    position: relative;
+    overflow: hidden;
+}
+.overlay-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background: red;
+    opacity: 0.5;
+    transition: .4s;
+    left: 0;
+}
+.content-on {
+    transform: translateX(100%);
+}
+.content:hover .overlay-content{
+	transform: translateX(0);
+}
+.overlay-content a {
+    padding-left: 50%;
+}
+.overlay-content a i.fas.fa-plus {
+    margin-top: 20%;
+    font-size: 30px;
+    color: white;
+}
+.overlay-content p {
+    padding-left: 35%;
+    font-size: 20px;
+    color: white;
+}
+section.project {
+    background-color: #706A5F;
+}
+.content {
+	box-shadow: 0 1rem 3rem rgba(0,0,0,1.175)!important;
+	margin-top: 50px;
+}
+/*project end*/
+/*cta area start*/
+.single-cta-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.single-cta-area button.btn.btn-outline-primary {
+    border-radius: 10rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    width: 225px;
+}
+button.btn.btn-outline-primary.invention{
+    background-color: #0A80FF;
+    color: white;
+}
+/*cta area end*/
+
+/*service start*/
+.single-service {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,1.175)!important;
+    margin: 25px 6px;
+    border-radius: 20px;
+    color: #fff;
+}
+.sin-ser-ico i.fab.fa-facebook {
+    padding: 30px;
+    background: #B8B6B6;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    border: 5px solid #605E56;
+}
+.sin-ser-ico i.fab.fa-facebook:hover{
+    background: #605E56;
+    border: 5px solid #B8B6B6;
+    color: #B8B6B6;
+}
+.sin-ser-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section.service {
+    background: #5F625C;
+}
+/*service end*/
+
+/*photograyphy start */
+.single-photography {
+    position: relative;
+    overflow: hidden;
+}
+.overlay-photogarphy{
+	position: absolute;
+    top: 0;
+    padding: 0;
+    height: 100%;
+    left: 0;
+    background-color: #7F9F64;
+    opacity: 0.7;
+    width: 100%;
+}
+.photography-on {
+    transform: translateX(100%);
+}
+.single-photography:hover .overlay-photogarphy{
+	transform: translateX(0);
+}
+.overlay-photogarphy a {
+    padding-left: 50%;
+}
+.overlay-photogarphy a i.fas.fa-image.gallary-image {
+    margin-top: 20%;
+    font-size: 30px;
+    color: white;
+}
+.overlay-photogarphy p {
+    padding-left: 35%;
+    font-size: 20px;
+    color: white;
+
+}
+section.photography .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+/*photography end*/
+/*scroll start*/
+a.scrollToTop.text-center {
+    margin: 0;
+    position: fixed;
+    bottom: 17px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    z-index: 1000;
+    display: none;
+    text-decoration: none;
+    background: #9A9184;
+    opacity: 0.7;
+    transition: all 0.2s;
+    font-size: 28px;
+    color: white;
+}
+/*scroll start*/
+
